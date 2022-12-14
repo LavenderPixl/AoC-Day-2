@@ -10,8 +10,6 @@ int Score = 0;
 // Win = 6;
 // Draw = 3;
 
-// X 
-
 foreach (var line in text)
 {
     if (line.Contains("A") && line.Contains("Y"))
@@ -54,22 +52,3 @@ foreach (var line in text)
     }
 }
 Console.WriteLine($"Your score is {Score}!");
-
-//for (int i = 0; i < text.Length; i++)
-//{
-//    if (text[i].Contains("A"))
-//    {
-//        Elf = Arock;
-//    }
-//    else if (text[i].Contains("B"))
-//    {
-//        Elf = BPaper;
-//    }
-//    else if (text[i].Contains("C"))
-//    {
-//        Elf = CScissors;
-//    }
-//    bool v = text[i] == text[i + 1];
-//}
-
-
